@@ -27,10 +27,12 @@ function generateResume() {
             
             generateResume();
 
-            window.onload = () => {
+           
             html2pdf().from(container).set(opt).save();
 
-            }
             
+            setInterval(() => {
+                location.reload();
+            },3000) 
 
         })
