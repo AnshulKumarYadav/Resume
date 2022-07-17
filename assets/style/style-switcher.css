@@ -36,7 +36,6 @@
 {
     line-height: 40px;
 }
-
 .style-switcher .style-switcher-toggler
 {
     top: 0;
@@ -66,7 +65,8 @@
 }
 .style-switcher .colors span
 {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -74,7 +74,7 @@
 }
 .style-switcher .color-1
 {
-    background: #fa5b0f;
+    background: #202952;
 }
 .style-switcher .color-2
 {
