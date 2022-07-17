@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME | ANSHUL KUMAR YADAV</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP LINKS-->
+</head>
+<body>
+    <a id="saveAsPdfBtn" href="https://www.sejda.com/html-to-pdf">Save as PDF</a>
+    <div id="container">
+        <div id="header">
+            <div>
+            <div>
+                <img src="/assets/images/hero.png" alt="anshul">
+            </div>
+            <div>
+                <h2>ANSHUL KUMAR YADAV</h2>
+                <h4>SOFTWARE DEVELOPER</h4>
+            </div>
+            </div>
+        </div>
+        <div id="containt">
+            <div style="padding-left: 20px;">
+                <div>
+                    <h3><u>My Contact</u></h3>
+                    <div class="contact-details">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:rishabhyadav3602@gmail.com">rishabhyadav3602@gmail.com</a>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+917060476249" target="_blank">+917060476249</a>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <p>Jawahar Nagar, Aligarh, U.P (India)</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa-dark fa-globe"></i>
+                        <a href="https://anshulkumaryadav.vercel.app/">Portfolio Website</a>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/anshul-kumar-yadav/">anshul-kumar-yadav</a>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/AnshulKumarYadav">AnshulKumarYadav</a>
+                    </div>
+                </div>
+                <div>
+                    <h3><u>Technical Skills</u></h3>
+                    <ul>
+                        <li>Java, JavaScript</li>
+                        <li>SpringBoot, SQL(mySql)</li>
+                        <li>Maven, Hibernate</li>
+                        <li>AWS</li>
+                        <li>HTML, CSS</li>
+                        <li>Data Structures & Algorithm</li>
+                        <li>Git,GitHub</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><u>Soft Skills</u></h3>
+                    <ul>
+                       <li>Team Work</li>
+                       <li>Remote Collaboration</li>
+                       <li>Communicatiion</li>
+                       <li>Decision Making</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><u>Education Background</u></h3>
+                    <div id="education">
+                        <div style="height: 250px">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div>
+                            <h5>Masai School, Bangluru,Karnataka(India)</h5>
+                            <p>Web Development Course</p>
+                            <h6>January,2022 - Present</h6>
+                            <h5>Government Polytechnic Hapur,U.P(India)</h5>
+                            <p>Diploma in Electrical Engineering(Industrial Control)</p>
+                            <h6>July,2018 - September,2021</h6>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3><u>Interest & Hobbies</u></h3>
+                    <ul>
+                       <li>Playing Cricket</li>
+                       <li>Cycling & Biking</li>
+                       <li>Long Drives</li>
+                       <li>Cooking</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="padding-right: 50px; padding-left: 30px;">
+                <div>
+                    <h3><u>Professional Summary </u></h3>
+                    <p>A software development engineer with knowledge of Coding, Data Structures & Algorithms and design.  A proficient programmer in Java and JavaScript. Ability to learn new technologies and software quickly. Team player who provides valuable support in a team environment.</p>
+                </div>
+                <div>
+                    <h3><u>Projects</u></h3>
+                    <div id="projects">
+                        <div style="height: 250px">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        
+    </div>
+</body>
+</html>
+
+<script>
+document.getElementById('saveAsPdfBtn').addEventListener('click', function(e){
+  var pageUrl = encodeURIComponent(window.location.href);
+  var opts = ['save-link=' + pageUrl, 'pageOrientation=auto'];
+  window.open('https://www.sejda.com/html-to-pdf?' + opts.join('&'));
+  e.preventDefault();
+});
+</script>
